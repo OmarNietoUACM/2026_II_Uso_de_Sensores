@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style
+        name="TitleItemcardView"
+        parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style
+        name="ElementItemcardView"
+        parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/gris03</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+
+
+    <style
+        name="TitleCardView"
+        parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/blue_shadow</item>
+    </style>
+
+    <style
+        name="ElementCardView"
+        parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+
+
+    <color name="blue_shadow">#283593</color>
+</resources>
