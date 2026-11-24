@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/main_tool_bar3"
     tools:context=".SensorDetailFragment">
 
 
@@ -22,9 +23,9 @@
             android:layout_height="?attr/actionBarSize"
             app:title="Regresar"
             android:src="@drawable/main_tool_bar3"
-            android:background="@drawable/main_tool_bar3"
             app:navigationIcon="@drawable/arrow_back_48dp"
             app:navigationIconTint="#EF6C00"
+            android:background="@android:color/transparent"
             style="@style/Widget.MaterialComponents.Toolbar.Primary"
             />
 
